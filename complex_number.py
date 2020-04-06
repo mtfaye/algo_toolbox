@@ -1,4 +1,6 @@
 # Create a complex number class
+import math
+import os
 
 class Complex(object):
      def __init__(self, real, imag):
@@ -14,9 +16,9 @@ class Complex(object):
           return Complex(self.real - other.real,
                          self.imag - other.imag)
 
-     def __multi__(self, other):
-          return Complex(self.real * other.real,
-                         self.imag * other.imag)
+     def __div__(self, other):
+          return Complex(self.real / other.real,
+                         self.imag / other.imag)
 
      def __str__(self):
           return '<'+str(self.real)+ ',' +str(self.imag)+'>'
@@ -24,5 +26,8 @@ class Complex(object):
 
 U = Complex(2, -1)
 V = Complex(1, 0)
-W = U * V
+W = U / V
 print(W)
+
+
+
