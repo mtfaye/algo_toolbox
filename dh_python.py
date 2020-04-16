@@ -15,7 +15,7 @@ Original file is located at
 
 basket_values = [3.43,9.73,7.56,9.52,15.23,2.25,6.44,7.38]
 
-"""## 1 - a. Print out whether each basket is:
+""" 1 - a. Print out whether each basket is:
 small (basket value < £5),
 medium (£5 ≤ basket value < £10) 
 or large (basket value ≥ £10)
@@ -35,7 +35,7 @@ def basket_size(given_list):
 # Give it the list basket_values 
 basket_size(basket_values)
 
-"""### 1 - b. Sum and print the value of the medium value baskets:"""
+""" 1 - b. Sum and print the value of the medium value baskets:"""
 
 def mysum(basket_values):
     # sum all the medium values and return the total
@@ -49,7 +49,7 @@ def mysum(basket_values):
 # result
 mysum(basket_values)
 
-"""## 2. You are given the following nested dictionaries, which represent items in a basket:"""
+""" 2. You are given the following nested dictionaries, which represent items in a basket:"""
 
 basket = {
           '2624': {'price': 0.5, 'prod_name': 'salt'},
@@ -57,12 +57,12 @@ basket = {
           '7527': {'price': 2.5, 'prod_name': 'flour'}
           }
 
-"""### 2 - a. Return the product name for item 7527"""
+""" 2 - a. Return the product name for item 7527"""
 
 # access nested dict using indexing 
 basket['7527']['prod_name']
 
-"""### 2 - b. Return the total value of this basket"""
+""" 2 - b. Return the total value of this basket"""
 
 sum = 0
 # iterating key value pair 
@@ -75,7 +75,7 @@ for key, value in basket.items():
 # print sum of value
 sum
 
-"""### 2 - c. Add another entry for a product that costs £4.95, has ID 7524 and name ‘poppy seeds’"""
+""" 2 - c. Add another entry for a product that costs £4.95, has ID 7524 and name ‘poppy seeds’"""
 
 # insert new dict into basket
 basket['7524'] = {'price': 4.95, 'prod_name': 'poppy seeds'}
@@ -83,7 +83,7 @@ basket['7524'] = {'price': 4.95, 'prod_name': 'poppy seeds'}
 # result
 basket
 
-"""## 3. Below is the source code for a function called ‘get_sql_string’"""
+""" 3. Below is the source code for a function called ‘get_sql_string’"""
 
 def get_sql_string(stores):
   store_names = [x.split(', ')[0] for x in stores]
@@ -94,12 +94,12 @@ def get_sql_string(stores):
 
   return ', '.join(columns)
 
-"""### 3 - a. There is a bug in line 4. What should the line be?"""
+""" 3 - a. There is a bug in line 4. What should the line be?"""
 
 # split function separate string 
  store_regions = [x.split(', ')[1] for x in stores]
 
-"""### 3 - Assuming this bug was fixed, what would be returned if the following command was executed:
+""" 3 - Assuming this bug was fixed, what would be returned if the following command was executed:
 
 my_stores = ['Fulham Palace Rd, Hammersmith', 'Crown St, Reading', 'Leavesden Green, Watford']
 
