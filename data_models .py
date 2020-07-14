@@ -22,7 +22,6 @@ class Polynomial:
 
 # Generators
 # Top level syntax, function -> underscore methods
-# x ()
 from dis import dis
 
 def add(x, y):
@@ -38,8 +37,6 @@ def compute():
 
 
 # Generators functions
-
-
 from sqlite3 import connect
 
 with connect('test.db') as conn:
