@@ -7,7 +7,6 @@ class Complex(object):
           self.real = real
           self.imag = imag
 
-
      def __add__(self, other):
           return Complex(self.real + other.real,
                          self.imag + other.imag)
@@ -28,6 +27,3 @@ U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
 print(W)
-
-
-
