@@ -26,3 +26,11 @@ print(emp_2.email)
 result = emp_1.fullname()
 
 print(result)
+
+
+def another_newFunc():
+     pass
+
+
+Class NewClassForJustPullRequest:
+     pass
