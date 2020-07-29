@@ -22,6 +22,11 @@ class Complex(object):
      def __str__(self):
           return '<'+str(self.real)+ ',' +str(self.imag)+'>'
 
+     
+     def __call__(self):
+          pass
+     
+     
 
 U = Complex(2, -1)
 V = Complex(1, 0)
