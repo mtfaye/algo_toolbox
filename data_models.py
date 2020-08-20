@@ -1,6 +1,5 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-
 # Data Models
 
 class Polynomial:
@@ -27,5 +26,3 @@ class Polynomial:
 def add(x, y):
     return x + y
 
-
-# Very nice talk !!
