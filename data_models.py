@@ -21,7 +21,6 @@ class Polynomial:
 
 # Generators
 # Top level syntax, function -> underscore methods
-# x ()
 
 def add(x, y):
     return x + y
