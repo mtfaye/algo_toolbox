@@ -1,13 +1,5 @@
 IGNORE THIS ONE. 
 
-Build sharp tools with Python. 
 
 def test__utils():
     pass
-    
-def test__src():
-    pass
-    
-    
-
-
