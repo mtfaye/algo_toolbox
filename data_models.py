@@ -1,6 +1,5 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-
 # Data Models
 
 class Polynomial:
@@ -22,9 +21,7 @@ class Polynomial:
 
 # Generators
 # Top level syntax, function -> underscore methods
-# x ()
 
 def add(x, y):
     return x + y
-
 
