@@ -1,7 +1,3 @@
 IGNORE THIS ONE. 
 
-Build sharp tools with Python. 
 
-@keiththomps 
-
-# make your bed every morning ! 
