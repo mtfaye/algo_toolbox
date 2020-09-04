@@ -19,9 +19,6 @@ class Polynomial:
         pass
 
 
-# Generators
-# Top level syntax, function -> underscore methods
-
 def add(x, y):
     return x + y
 
