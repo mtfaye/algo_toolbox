@@ -131,8 +131,4 @@ def get_maxsort(lst_string):
 # result
 get_maxsort(lst_string)
 
-""" # Section 2: pandas data frames
-
-## 1. Find the nth largest salary
-"""
 
