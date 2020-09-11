@@ -1,5 +1,5 @@
 # Files for good oop good practices 
-# use this filed for PR.
+# use this file for PR.
 def addFunc():
   pass
 
@@ -7,6 +7,3 @@ def addFunc():
 class NewClass:
     def __init__():
         pass
-      
-      
-      
