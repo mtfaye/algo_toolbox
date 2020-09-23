@@ -22,3 +22,6 @@ class Polynomial:
 def add(x, y):
     return x + y
 
+def addNewFunct():
+    pass
+
