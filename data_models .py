@@ -19,8 +19,6 @@ class Polynomial:
     def __call__(self):
         pass
 
-
-# Generators
 # Top level syntax, function -> underscore methods
 from dis import dis
 
