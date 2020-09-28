@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-"""dh-python.ipynb
-
+"""
 @author: Mouhameth T Faye
 
 # **Dunnhumby - Python Test**
