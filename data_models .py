@@ -2,6 +2,8 @@
 # So you want to be A Python Expert?
 
 # Data Models
+# Love this talk :) 
+
 
 class Polynomial:
     def __init__(self):
