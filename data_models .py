@@ -19,8 +19,6 @@ class Polynomial:
     def __call__(self):
         pass
 
-
-# Generators
 # Top level syntax, function -> underscore methods
 from dis import dis
 
@@ -34,6 +32,7 @@ def compute():
         rv.append()
     return rv
 
+*// Java commenting style. 
 
 # Generators functions
 from sqlite3 import connect
@@ -50,5 +49,3 @@ def sql_connect():
         for row in cur.execute('selectsum(x * y ) from points'):
             pass
 
-    
-   
