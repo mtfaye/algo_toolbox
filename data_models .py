@@ -25,7 +25,6 @@ from dis import dis
 def add(x, y):
     return x + y
 
-
 def compute():
     rv =[]
     for i in range(10):
@@ -37,20 +36,16 @@ def compute():
 
 # Generators functions
 from sqlite3 import connect
-
-with connect('test.db') as conn:
-    cur = conn.cursor()
-    cur.execute('create table points(x int, y int)')
-    cur.execute('insert inot points (x, y), values(1, 1)')
-    cur.execute('create table points(x int, y int)')
-    for row in cur.execute('select x, y from points'):
-        print(row)
-    for row in cur.execute('selectsum(x * y ) from points'):
-        pass
-    
-    
-    
- def new_function(agrs*):
-    pass
-
+def sql_connect():
+    """Doc String : 
+    """
+    with connect('test.db') as conn:
+        cur = conn.cursor()
+        cur.execute('create table points(x int, y int)')
+        cur.execute('insert inot points (x, y), values(1, 1)')
+        cur.execute('create table points(x int, y int)')
+        for row in cur.execute('select x, y from points'):
+            print(row)
+        for row in cur.execute('selectsum(x * y ) from points'):
+            pass
 

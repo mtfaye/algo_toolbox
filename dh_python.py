@@ -3,9 +3,6 @@
 
 @author: Mouhameth T Faye
 
-Original file is located at
-    https://colab.research.google.com/drive/1BHnCNuB5REzNG_4JFhtA8aaogw1TmBic
-
 # **Dunnhumby - Python Test**
 
 ## Section 1: General Python
