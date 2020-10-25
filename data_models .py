@@ -33,6 +33,7 @@ def compute():
         rv.append()
     return rv
 
+*// Java commenting style. 
 
 # Generators functions
 from sqlite3 import connect
@@ -46,3 +47,10 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
+    
+    
+    
+ def new_function(agrs*):
+    pass
+
+
