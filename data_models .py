@@ -60,5 +60,9 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
- # what is new ?
+    
+# what is new ?
+# nothing new ?
+
+
 
