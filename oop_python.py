@@ -1,3 +1,4 @@
+
 # New Class for Filter Prism 
 
 class NewClassFilterPrism:
@@ -26,4 +27,3 @@ if __name__ == main():
 # Is my english now on the same level as my french? 
 # Thanks, 
 # Mouhameth 
-
