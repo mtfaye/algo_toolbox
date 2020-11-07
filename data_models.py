@@ -25,3 +25,7 @@ def add(x, y):
 def addNewFunct():
     pass
 
+def another_function(args*, kwargs*):
+    pass
+
+
