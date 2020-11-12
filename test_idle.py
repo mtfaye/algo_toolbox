@@ -22,3 +22,16 @@ print(emp_1.email)
 print(emp_2.email)
 
 result = emp_1.fullname()
+result = emp_1.fullname()
+
+
+def connect_db_server():
+     pass
+
+def switch_container():
+     pass
+
+def fetch_table():
+     pass
+
+
