@@ -25,5 +25,9 @@ def add(x, y):
 def addNewFunct():
     pass
 
-def another_function():
-    pass
+class MetaData:
+    class Inner_Call(MetaData):
+        def__init__(self):
+            pass
+        
+        

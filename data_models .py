@@ -2,6 +2,8 @@
 # So you want to be A Python Expert?
 
 # Data Models
+# Love this talk :) 
+
 
 class Polynomial:
     def __init__(self):
@@ -19,8 +21,6 @@ class Polynomial:
     def __call__(self):
         pass
 
-
-# Generators
 # Top level syntax, function -> underscore methods
 from dis import dis
 
@@ -34,6 +34,7 @@ def compute():
         rv.append()
     return rv
 
+*// Java commenting style. 
 
 # Generators functions
 from sqlite3 import connect
@@ -50,5 +51,13 @@ def sql_connect():
         for row in cur.execute('selectsum(x * y ) from points'):
             pass
 
+with connect('test.db') as conn:
+    cur = conn.cursor()
+    cur.execute('create table points(x int, y int)')
+    cur.execute('insert inot points (x, y), values(1, 1)')
+    cur.execute('create table points(x int, y int)')
+    for row in cur.execute('select x, y from points'):
+        print(row)
+    for row in cur.execute('selectsum(x * y ) from points'):
+        pass
     
-   

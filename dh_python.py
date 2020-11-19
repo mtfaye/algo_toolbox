@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-"""dh-python.ipynb
-
+"""
 @author: Mouhameth T Faye
 
 # **Dunnhumby - Python Test**
@@ -130,5 +129,8 @@ def get_maxsort(lst_string):
 
 # result
 get_maxsort(lst_string)
+
+
+# it was nice writing this function.
 
 
