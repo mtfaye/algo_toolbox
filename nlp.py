@@ -1,15 +1,8 @@
 
-def decorators():
-  pass
+# New file for NLP codes. 
+# Must be kept clean - Enjoy ! 
 
-def inner_function():
-  pass
 
-def _outer_function():
-  pass
-
-__main__==__name__:
-  pass
 
 
 
