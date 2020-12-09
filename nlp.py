@@ -8,6 +8,11 @@ def inner_function():
 def _outer_function():
   pass
 
+def outer_():
+  pass
+
+
+
 __main__==__name__:
   pass
 
