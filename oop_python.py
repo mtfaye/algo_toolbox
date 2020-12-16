@@ -18,9 +18,4 @@ def main():
 if __name__ == main():
   pass
 
-# Files for good oop practices 
-# use this filed for PR only.
 
-
-# Thanks, 
-# Mouhameth 
