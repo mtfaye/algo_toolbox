@@ -3,8 +3,7 @@
 
 # Data Models
 # Love this talk :) 
-# love this new dark mode. :) 
-# last week of the year at work. :) 
+
 
 class Polynomial:
     def __init__(self):
