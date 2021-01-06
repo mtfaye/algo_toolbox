@@ -44,4 +44,8 @@ Class NewClass:
      
      def __repr__():
           pass
+     
+     def __str__():
+          pass
+     
     
