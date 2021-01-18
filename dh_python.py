@@ -116,7 +116,6 @@ lst_string = ["dgddfg", "sdf", "ffs", "asdd", "hdfsdgsdggsdgdgd"]
 
 def get_maxsort(lst_string):
 # function that take a list of strings, sort it and return the max length
-
   # use built-in sort function to order element alphabetically
   new_list = sorted(lst_string)
   print("Alphabetically ordered:\n")
@@ -129,8 +128,3 @@ def get_maxsort(lst_string):
 
 # result
 get_maxsort(lst_string)
-
-
-# it was nice writing this function.
-
-
