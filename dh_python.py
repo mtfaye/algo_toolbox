@@ -40,7 +40,6 @@ def mysum(basket_values):
         running_total = running_total + i
     return running_total
 
-# result
 mysum(basket_values)
 
 """ 2. You are given the following nested dictionaries, which represent items in a basket:"""
