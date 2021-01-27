@@ -34,7 +34,6 @@ def compute():
         rv.append()
     return rv
 
-*// Java commenting style. 
 
 # Generators functions
 from sqlite3 import connect
