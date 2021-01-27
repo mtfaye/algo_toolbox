@@ -27,12 +27,14 @@ from dis import dis
 def add(x, y):
     return x + y
 
+
 def compute():
     rv =[]
     for i in range(10):
         sleep(.5)
         rv.append()
     return rv
+
 
 
 # Generators functions
@@ -59,4 +61,3 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
-    

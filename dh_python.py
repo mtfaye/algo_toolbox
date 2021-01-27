@@ -40,7 +40,6 @@ def mysum(basket_values):
         running_total = running_total + i
     return running_total
 
-# result
 mysum(basket_values)
 
 """ 2. You are given the following nested dictionaries, which represent items in a basket:"""
@@ -116,7 +115,6 @@ lst_string = ["dgddfg", "sdf", "ffs", "asdd", "hdfsdgsdggsdgdgd"]
 
 def get_maxsort(lst_string):
 # function that take a list of strings, sort it and return the max length
-
   # use built-in sort function to order element alphabetically
   new_list = sorted(lst_string)
   print("Alphabetically ordered:\n")
@@ -129,8 +127,3 @@ def get_maxsort(lst_string):
 
 # result
 get_maxsort(lst_string)
-
-
-# it was nice writing this function.
-
-
