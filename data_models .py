@@ -1,9 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
 
-# Data Models
-# Love this talk :) 
-
 
 class Polynomial:
     def __init__(self):
@@ -36,7 +33,6 @@ def compute():
     return rv
 
 
-
 # Generators functions
 from sqlite3 import connect
 def sql_connect():
@@ -61,4 +57,3 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
-    
