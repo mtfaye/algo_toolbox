@@ -4,7 +4,6 @@
 
 # **Dunnhumby - Python Test**
 
-## Section 1: General Python
 """
 
 basket_values = [3.43,9.73,7.56,9.52,15.23,2.25,6.44,7.38]
