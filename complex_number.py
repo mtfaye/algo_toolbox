@@ -32,20 +32,3 @@ U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
 print(W)
-
-
-def new_func():
-     pass
-
-
-Class NewClass:
-     def __init__():
-          pass
-     
-     def __repr__():
-          pass
-     
-     def __str__():
-          pass
-     
-    
