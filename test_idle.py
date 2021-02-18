@@ -3,7 +3,7 @@
 import subprocess as sp
 sp.call('cls',shell=True)
 
-# Create a parent clas of animal
+
 class  Employee:
 
      def __init__(self, first, last, pay):
@@ -23,15 +23,5 @@ print(emp_2.email)
 
 result = emp_1.fullname()
 result = emp_1.fullname()
-
-
-def connect_db_server():
-     pass
-
-def switch_container():
-     pass
-
-def fetch_table():
-     pass
 
 

@@ -15,18 +15,3 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
-
-    def __call__(self):
-        pass
-
-
-def add(x, y):
-    return x + y
-
-def addNewFunct():
-    pass
-
-class MetaData:
-    class Inner_Call(MetaData):
-        def__init__(self):
-            pass
