@@ -16,7 +16,6 @@ or large (basket value ≥ £10)
 
 def basket_size(given_list):
   # Re-usable function for any given list of values
-
   for i in given_list:
     if i < 5:
       print("Small : ",i)
@@ -24,7 +23,6 @@ def basket_size(given_list):
       print("Large : ",i)
     if i >= 5 and i <10:
       print("Medium: ",i)
-
 # Give it the list basket_values 
 basket_size(basket_values)
 
@@ -32,7 +30,6 @@ basket_size(basket_values)
 
 def mysum(basket_values):
     # sum all the medium values and return the total
-    
     running_total = 0
     for i in basket_values:
       if i >= 5 and i <10:
