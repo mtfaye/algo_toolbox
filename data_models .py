@@ -1,9 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
 
-# Data Models
-# Love this talk :) 
-
 
 class Polynomial:
     def __init__(self):
@@ -34,7 +31,6 @@ def compute():
         sleep(.5)
         rv.append()
     return rv
-
 
 
 # Generators functions

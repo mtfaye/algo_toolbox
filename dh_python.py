@@ -4,7 +4,6 @@
 
 # **Dunnhumby - Python Test**
 
-## Section 1: General Python
 """
 
 basket_values = [3.43,9.73,7.56,9.52,15.23,2.25,6.44,7.38]
@@ -17,7 +16,6 @@ or large (basket value ≥ £10)
 
 def basket_size(given_list):
   # Re-usable function for any given list of values
-
   for i in given_list:
     if i < 5:
       print("Small : ",i)
@@ -25,7 +23,6 @@ def basket_size(given_list):
       print("Large : ",i)
     if i >= 5 and i <10:
       print("Medium: ",i)
-
 # Give it the list basket_values 
 basket_size(basket_values)
 
@@ -33,14 +30,12 @@ basket_size(basket_values)
 
 def mysum(basket_values):
     # sum all the medium values and return the total
-    
     running_total = 0
     for i in basket_values:
       if i >= 5 and i <10:
         running_total = running_total + i
     return running_total
 
-# result
 mysum(basket_values)
 
 """ 2. You are given the following nested dictionaries, which represent items in a basket:"""
@@ -116,7 +111,6 @@ lst_string = ["dgddfg", "sdf", "ffs", "asdd", "hdfsdgsdggsdgdgd"]
 
 def get_maxsort(lst_string):
 # function that take a list of strings, sort it and return the max length
-
   # use built-in sort function to order element alphabetically
   new_list = sorted(lst_string)
   print("Alphabetically ordered:\n")
@@ -129,8 +123,3 @@ def get_maxsort(lst_string):
 
 # result
 get_maxsort(lst_string)
-
-
-# it was nice writing this function.
-
-
