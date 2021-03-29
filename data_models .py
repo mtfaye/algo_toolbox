@@ -33,6 +33,15 @@ def compute():
     return rv
 
 
+def new_func():
+    pass
+
+def second_func():
+    pass
+
+
+
+
 # Generators functions
 from sqlite3 import connect
 def sql_connect():
