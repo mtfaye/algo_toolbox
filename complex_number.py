@@ -33,4 +33,19 @@ V = Complex(1, 0)
 W = U / V
 
 #miss coding in python 
+def __init__(self):
+     pass
+
+def second(self):
+     pass
+
+def third(self):
+     pass
+
+def fourth(self):
+     pass
+
+def fifth(self):
+     pass
+
 
