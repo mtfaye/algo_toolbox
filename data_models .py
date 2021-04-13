@@ -2,6 +2,7 @@
 # So you want to be A Python Expert?
 # yes.
 
+
 class Polynomial:
     def __init__(self):
         self.coeffs =coeffs
@@ -31,6 +32,15 @@ def compute():
         sleep(.5)
         rv.append()
     return rv
+
+
+def new_func():
+    pass
+
+def second_func():
+    pass
+
+
 
 
 # Generators functions

@@ -31,28 +31,21 @@ class Complex(object):
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
-print(W)
 
+#miss coding in python 
+def __init__(self):
+     pass
 
-def new_func():
+def second(self):
+     pass
+
+def third(self):
+     pass
+
+def fourth(self):
+     pass
+
+def fifth(self):
      pass
 
 
-Class NewClass:
-     def __init__():
-          pass
-     
-     def __repr__():
-          pass
-     
-     def __str__():
-          pass
-     
-    
-     def __str__():
-          pass
-     
-     def __call__():
-          pass
-     
-     
