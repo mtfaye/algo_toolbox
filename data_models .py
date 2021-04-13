@@ -1,7 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-# Cleaniest python file ever.
-
+# yes.
 
 
 class Polynomial:
