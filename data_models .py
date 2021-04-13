@@ -1,6 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-
+# yes.
 
 class Polynomial:
     def __init__(self):
