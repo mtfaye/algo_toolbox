@@ -1,8 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-
-# Data Models
-# Love this talk :) 
+# yes.
 
 
 class Polynomial:
@@ -18,8 +16,6 @@ class Polynomial:
     def __len__(self):
         return len(self.coeffs)
 
-    def __call__(self):
-        pass
 
 # Top level syntax, function -> underscore methods
 from dis import dis
@@ -34,8 +30,6 @@ def compute():
         sleep(.5)
         rv.append()
     return rv
-
-
 
 # Generators functions
 from sqlite3 import connect
