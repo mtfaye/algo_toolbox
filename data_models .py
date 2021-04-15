@@ -15,8 +15,6 @@ class Polynomial:
     def __len__(self):
         return len(self.coeffs)
 
-    def __call__(self):
-        pass
 
 # Top level syntax, function -> underscore methods
 from dis import dis
@@ -31,16 +29,6 @@ def compute():
         sleep(.5)
         rv.append()
     return rv
-
-
-def new_func():
-    pass
-
-def second_func():
-    pass
-
-
-
 
 # Generators functions
 from sqlite3 import connect
