@@ -12,14 +12,4 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
-    
-
-# new codes
-
-def func():
-    pass
-
-class NewClassFancy:
-    pass
-    def __init__(self):
-        pass
+   
