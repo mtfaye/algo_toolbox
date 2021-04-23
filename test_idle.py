@@ -3,9 +3,7 @@
 import subprocess as sp
 sp.call('cls',shell=True)
 
-
 class  Employee:
-
      def __init__(self, first, last, pay):
           self.first = first
           self.last  = last
@@ -14,6 +12,7 @@ class  Employee:
 
      def fullname(self):
           return '{} {}'.format(self.first, self.last)
+     
                               
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'User', 60000)
