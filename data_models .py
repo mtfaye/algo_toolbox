@@ -1,5 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
+# yes.
 
 
 class Polynomial:
@@ -22,7 +23,6 @@ from dis import dis
 def add(x, y):
     return x + y
 
-
 def compute():
     rv =[]
     for i in range(10):
@@ -32,9 +32,8 @@ def compute():
 
 # Generators functions
 from sqlite3 import connect
+
 def sql_connect():
-    """Doc String : 
-    """
     with connect('test.db') as conn:
         cur = conn.cursor()
         cur.execute('create table points(x int, y int)')
