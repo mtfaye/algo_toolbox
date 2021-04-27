@@ -16,15 +16,12 @@ class Polynomial:
     def __len__(self):
         return len(self.coeffs)
 
-    def __call__(self):
-        pass
 
 # Top level syntax, function -> underscore methods
 from dis import dis
 
 def add(x, y):
     return x + y
-
 
 def compute():
     rv =[]
@@ -33,21 +30,10 @@ def compute():
         rv.append()
     return rv
 
-
-def new_func():
-    pass
-
-def second_func():
-    pass
-
-
-
-
 # Generators functions
 from sqlite3 import connect
+
 def sql_connect():
-    """Doc String : 
-    """
     with connect('test.db') as conn:
         cur = conn.cursor()
         cur.execute('create table points(x int, y int)')
