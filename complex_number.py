@@ -22,30 +22,7 @@ class Complex(object):
      def __str__(self):
           return '<'+str(self.real)+ ',' +str(self.imag)+'>'
 
-     
-     def __call__(self):
-          pass
-     
-     
-
+    
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
-
-#miss coding in python 
-def __init__(self):
-     pass
-
-def second(self):
-     pass
-
-def third(self):
-     pass
-
-def fourth(self):
-     pass
-
-def fifth(self):
-     pass
-
-
