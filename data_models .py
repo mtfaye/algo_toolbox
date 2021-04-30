@@ -2,7 +2,6 @@
 # So you want to be A Python Expert?
 # yes.
 
-
 class Polynomial:
     def __init__(self):
         self.coeffs =coeffs
@@ -15,7 +14,6 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
-
 
 # Top level syntax, function -> underscore methods
 from dis import dis
@@ -53,6 +51,3 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
-
-    
-   #test how to review code
