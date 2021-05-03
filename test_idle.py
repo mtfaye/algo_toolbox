@@ -17,10 +17,5 @@ class  Employee:
 emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'User', 60000)
 
-print(emp_1.email)
-print(emp_2.email)
-
 result = emp_1.fullname()
 result = emp_1.fullname()
-
-
