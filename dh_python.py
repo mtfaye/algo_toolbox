@@ -124,5 +124,4 @@ def get_maxsort(lst_string):
 # result
 get_maxsort(lst_string)
 
-# miss my familly 
 
