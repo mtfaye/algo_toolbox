@@ -26,3 +26,10 @@ class Complex(object):
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
+
+def _dbscan_minimal_distance():
+     pass
+
+def learnHowToNameFunctions():
+     pass
+
