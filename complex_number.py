@@ -21,27 +21,15 @@ class Complex(object):
 
      def __str__(self):
           return '<'+str(self.real)+ ',' +str(self.imag)+'>'
-
-     
-     def __call__(self):
-          pass
-     
-     
-
+      
+    
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
-print(W)
 
-
-def new_func():
+def _dbscan_minimal_distance():
      pass
 
+def learnHowToNameFunctions():
+     pass
 
-Class NewClass:
-     def __init__():
-          pass
-     
-     def __repr__():
-          pass
-    

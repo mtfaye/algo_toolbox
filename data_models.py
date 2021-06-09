@@ -1,6 +1,4 @@
 # Python talk - James Powell
-# So you want to be A Python Expert?
-# Data Models
 
 class Polynomial:
     def __init__(self):
@@ -14,14 +12,3 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
-
-    def __call__(self):
-        pass
-
-
-def add(x, y):
-    return x + y
-
-def addNewFunct():
-    pass
-
