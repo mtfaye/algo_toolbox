@@ -21,11 +21,15 @@ class Complex(object):
 
      def __str__(self):
           return '<'+str(self.real)+ ',' +str(self.imag)+'>'
-
-     
-
+      
+    
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
 
-#miss coding in python.
+def _dbscan_minimal_distance():
+     pass
+
+def learnHowToNameFunctions():
+     pass
+
