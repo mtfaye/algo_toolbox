@@ -33,3 +33,7 @@ def _dbscan_minimal_distance():
 def learnHowToNameFunctions():
      pass
 
+def adjusted_turkey():
+     pass
+
+
