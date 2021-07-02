@@ -1,6 +1,8 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
 
+# Canada Day weekend push!
+
 class Polynomial:
     def __init__(self):
         self.coeffs =coeffs
