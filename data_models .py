@@ -1,7 +1,7 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
-# yes.
 
+# Canada Day weekend push!
 
 class Polynomial:
     def __init__(self):
@@ -15,7 +15,6 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
-
 
 # Top level syntax, function -> underscore methods
 from dis import dis
