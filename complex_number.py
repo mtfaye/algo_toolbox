@@ -44,3 +44,7 @@ def _kmeans():
 
 def _init_(self):
      return self.self
+
+def New_Function_That_Likes():
+     pass
+
