@@ -19,3 +19,4 @@ emp_2 = Employee('Test', 'User', 60000)
 
 result = emp_1.fullname()
 result = emp_1.fullname()
+result = emp_2.fullname()
