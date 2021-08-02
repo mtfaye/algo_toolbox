@@ -1,4 +1,5 @@
 # Python talk - James Powell
+# So you want ot be a python expert?
 
 class Polynomial:
     def __init__(self):

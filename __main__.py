@@ -2,7 +2,7 @@
 def main():
   pass
 
-
-def __init__():
+class NewClass:
   pass
+
 
