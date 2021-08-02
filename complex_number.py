@@ -36,4 +36,9 @@ def learnHowToNameFunctions():
 def _high_probability_density_region():
      pass
 
+def _adjusted_tukey():
+     pass
+
+
+
 
