@@ -7,7 +7,6 @@ class NewClass:
   def __print__(self):
     pass
 
-
 __main__==__name__:
   pass
 
@@ -18,3 +17,4 @@ __main__==__name__:
 
 
 # Closed. 
+# Closed.
