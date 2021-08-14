@@ -36,15 +36,5 @@ def learnHowToNameFunctions():
 def _high_probability_density_region():
      pass
 
-def _adjusted_turkey():
-     pass
 
-def _kmeans():
-     pass
-
-def _init_(self):
-     return self.self
-
-def New_Function_That_Likes():
-     pass
 
