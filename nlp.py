@@ -6,6 +6,8 @@ class NewClass:
     pass
   def __print__(self):
     pass
+  def __rsquare__(self):
+    pass
 
 __main__==__name__:
   pass
