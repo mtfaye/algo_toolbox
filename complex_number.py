@@ -44,3 +44,8 @@ def _kmeans():
 
 def _init_(self):
      return self.self
+
+def _dbscan(self):
+     pass
+
+
