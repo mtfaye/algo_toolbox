@@ -1,8 +1,3 @@
-
-def main():
-  pass
-
-class NewClass:
-  pass
-
+# add notes for nothing. 
+ Mouhameth 
 
