@@ -5,3 +5,6 @@ def __main__():
 
 def __init__():
   pass
+
+def sqr():
+  pass
