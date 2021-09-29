@@ -1,4 +1,5 @@
 # Create a complex number class
+# From "Now you are a python expert"
 import math
 import os
 
