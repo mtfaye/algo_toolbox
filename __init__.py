@@ -3,3 +3,9 @@ def __init__():
 
 def __main__():
   pass
+
+
+class Net:
+  def __init__(self):
+    pass
+  
