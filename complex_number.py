@@ -1,5 +1,7 @@
 # Create a complex number class
 # From "Now you are a python expert"
+# from dont use this code. 
+
 import math
 import os
 
