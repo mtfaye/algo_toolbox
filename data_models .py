@@ -57,7 +57,10 @@ with connect('test.db') as conn:
     def __init__():
         pass
     
-    def _repr__():
+    def __repr__():
+        pass
+    
+    def __str__():
         pass
    
     
