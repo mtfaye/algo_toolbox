@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 @author: Mouhameth T Faye
-
+ 
 # **Dunnhumby - Python Test**
-
+# this was the best ever in my career job hunting period. I was so hungry. Thank god for my new accomplishments
+More success to come. 
 """
 
 basket_values = [3.43,9.73,7.56,9.52,15.23,2.25,6.44,7.38]
@@ -124,4 +125,4 @@ def get_maxsort(lst_string):
 # result
 get_maxsort(lst_string)
 
-
+# mandatory to get new job. 

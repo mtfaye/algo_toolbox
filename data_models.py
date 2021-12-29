@@ -13,3 +13,6 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
+    
+    def __disc__(self):
+        return none
