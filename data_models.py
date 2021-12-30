@@ -13,3 +13,7 @@ class Polynomial:
 
     def __len__(self):
         return len(self.coeffs)
+
+    def __str__(self):
+        pass
+    
