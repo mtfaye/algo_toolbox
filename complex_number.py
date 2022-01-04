@@ -1,4 +1,7 @@
 # Create a complex number class
+# From "Now you are a python expert"
+# from dont use this code. 
+
 import math
 import os
 
@@ -26,25 +29,3 @@ class Complex(object):
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
-
-def _dbscan_minimal_distance():
-     pass
-
-def learnHowToNameFunctions():
-     pass
-
-def _high_probability_density_region():
-     pass
-
-def _adjusted_turkey():
-     pass
-
-def _kmeans():
-     pass
-
-def _init_(self):
-     return self.self
-
-def New_Function_That_Likes():
-     pass
-
