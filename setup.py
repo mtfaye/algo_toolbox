@@ -8,3 +8,6 @@ def __init__():
 
 def sqr():
   pass
+
+def setup():
+  pass
