@@ -62,6 +62,3 @@ with connect('test.db') as conn:
     
     def __str__():
         pass
-   
-    
-    
