@@ -8,6 +8,3 @@ def __init__():
 
 def sqr():
   pass
-
-def str():
-  pass

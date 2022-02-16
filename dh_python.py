@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 @author: Mouhameth T Faye
-
+ 
 # **Dunnhumby - Python Test**
-# this was the best ever in my so called career job hunting period. I was so hungry. Thank god for my new accomplishments
+# this was the best ever in my career job hunting period. I was so hungry. Thank god for my new accomplishments
 More success to come. 
 """
 

@@ -10,6 +10,7 @@ class NewClass:
     pass
 
 __main__==__name__:
+ def main():
   pass
 #closed. 
 # closed. 

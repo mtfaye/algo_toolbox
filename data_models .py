@@ -1,8 +1,6 @@
 # Python talk - James Powell
 # So you want to be A Python Expert?
 
-# Canada Day weekend push!
-
 class Polynomial:
     def __init__(self):
         self.coeffs =coeffs
@@ -52,9 +50,3 @@ with connect('test.db') as conn:
         print(row)
     for row in cur.execute('selectsum(x * y ) from points'):
         pass
-    
-    
-    def __init__():
-        pass
-    
-    
