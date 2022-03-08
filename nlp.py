@@ -12,5 +12,3 @@ class NewClass:
 __main__==__name__:
  def main():
   pass
-#closed. 
-# closed. 
