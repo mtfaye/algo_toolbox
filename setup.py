@@ -11,3 +11,6 @@ def sqr():
 
 def setup():
   pass
+
+def f(x):
+  return x*f(x)
