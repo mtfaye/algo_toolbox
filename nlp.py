@@ -12,3 +12,4 @@ __main__==__name__:
   pass
 
 #closed. 
+# def isPalindrome(s):
