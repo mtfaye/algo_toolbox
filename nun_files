@@ -1,3 +1,60 @@
 
 # add new comments every day for commits.
 # This is a new sentence for commit. 
+# This is a new sentence for commit.
+def  isPalindrome(strng):
+  left = 0
+  right = len(strng)-1 
+  
+  while left < right:
+    if strng[left] == strng[right]:
+      return True
+    else:
+      left += 1
+      right -= 1 
+      
+   return True 
+   
+
+def misMatch(lst1, lst2):
+  ans = []
+  for i in list1:
+    for j in list2:
+      if i in list2:
+        ans.append(i)
+      if j in list1:
+        and.append(j)
+      break 
+     
+  return ans 
+  
+  
+  def balanced(arr): 
+    hashMap = {}
+    for idx in len(range(arr)):
+      if arr[idx] not in hashMap:
+        hashMap[arr] = 1
+      else:
+        hashMap[arr] += 1
+    ans = {}
+    for k, v in hashMap.items():
+      if v != max(hashMap.values()):
+        ans[k] = max(hashMap.values()) - v
+    return ans 
+    
+    
+    def isBudget(prices, budget):
+      count_item = 0 
+      total = 0
+      
+      for price in prices:
+        if price < budget and total < budget:
+          count_item +=1
+          total = total += price
+          
+      return count_item 
+      
+      
+      
+          
+        
