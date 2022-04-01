@@ -113,6 +113,13 @@ Expected Result : 'The lyrics is good!'
 """
 
 def replaceWord(strng):
+    """
+    1. describe all the steps.
+    2. Start coding right after don't. 
+    3. When stuck, keep talking out loud.
+    4. Keep coding.
+    5. When complete take a look at the the code before submitting. 
+    """
     def isMatch():
         return
 
