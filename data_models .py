@@ -21,7 +21,7 @@ def add(x, y):
     return x + y
 
 def compute():
-    rv =[]
+    rv = []
     for i in range(10):
         sleep(.5)
         rv.append()
