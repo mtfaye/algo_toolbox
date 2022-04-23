@@ -1,7 +1,7 @@
 # clean the shell
 
 import subprocess as sp
-sp.call('cls',shell=True)
+sp.call('cls', shell=True)
 
 class  Employee:
      def __init__(self, first, last, pay):
@@ -18,6 +18,4 @@ emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'User', 60000)
 
 result = emp_1.fullname()
-result = emp_1.fullname()
-result = emp_2.fullname()
 result = emp_2.fullname()
