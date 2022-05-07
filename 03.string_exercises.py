@@ -120,11 +120,7 @@ def replaceWord(strng):
     4. Keep coding.
     5. When complete take a look at the the code before submitting. 
     """
-    def isMatch():
-        return
-    
-    def isMaximum(strng):
-        pass
+    pass
     
 
 
