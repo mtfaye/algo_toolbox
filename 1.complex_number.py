@@ -1,6 +1,5 @@
 # Create a complex number class
 # From "Now you are a python expert"
-# from dont use this code. 
 
 import math
 import os
@@ -29,8 +28,3 @@ class Complex(object):
 U = Complex(2, -1)
 V = Complex(1, 0)
 W = U / V
-
-def sumOfPair(nums);
-     pass
-
-
